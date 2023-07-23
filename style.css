@@ -14,8 +14,8 @@ body {
     min-height: var(--min-page-height);
     padding: 0;
 
-    @media (min-width: 500px) {
-        max-width: 500px !important;
+    @media (min-width: 600px) {
+        max-width: 600px !important;
     }
 }
 
@@ -53,7 +53,8 @@ h2 {
 }
 
 .selling-points {
-    padding: 15px;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .selling-point-row {
@@ -65,13 +66,32 @@ h2 {
     height: 4em;
     width: 4em;
     text-align: center;
-    margin-left: 2em;
     background-color: lightblue;
-    background-image: url('icon.png');
-    background-size: 60%;
+
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.icon-1 {
+    background-image: url('icon.png');
+    background-size: 60%;
+}
+
+.icon-2 {
+    background-image: url('icon2.png');
+    background-size: 75%;
+}
+
+.icon-3 {
+    background-image: url('icon3.png');
+    background-size: 60%;
+}
+
+.icon-4 {
+    background-image: url('icon4.png');
+    background-size: 60%;
+}
+
 
 .selling-point-text {
     align-items: center;
@@ -90,7 +110,6 @@ h2 {
     height: 4em;
     width: 4em;
     background-size: 60%;
-    margin-left: 0.85em;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -109,4 +128,5 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-weight: 500;
+    margin-bottom: 2rem;
 }
