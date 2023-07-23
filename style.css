@@ -1,0 +1,112 @@
+:root {
+  --page-height: 50rem;
+  --min-page-height: 100vh;
+}
+
+body {
+    background-color: #232223;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+    height: var(--page-height);
+    min-height: var(--min-page-height);
+    padding: 0;
+
+    @media (min-width: 500px) {
+        max-width: 500px !important;
+    }
+}
+
+.header-top-image {
+    background-color: white;
+    background-image: url("mat.webp");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 20%;
+    width: 100%;
+    background-size: cover;
+}
+
+.rosana-picture {
+    border-radius: 50%;
+    width: 28%;
+    margin-top: -15%;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.75);
+}
+
+.title-container {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.selling-points {
+    padding: 15px;
+}
+
+.selling-point-row {
+    margin-bottom: 2rem;
+}
+
+.selling-point-icon {
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+    text-align: center;
+    margin-left: 2em;
+    background-color: lightblue;
+    background-image: url('icon.png');
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.selling-point-text {
+    align-items: center;
+    text-align: left;
+    margin: 0;
+}
+
+.center-vert {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-icon {
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+    background-size: 60%;
+    margin-left: 0.85em;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    background-color: darkmagenta;
+    background-image: url('instagram.png');
+}
+
+.whatsapp {
+    background-color: green;
+    background-image: url('whatsapp.png');
+}
+
+.footer-message {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
